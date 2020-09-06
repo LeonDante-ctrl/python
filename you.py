@@ -5,9 +5,9 @@ class User:
 
     user_list = [] #empty list
 
-    def __init__(self,user_name, pass):
+    def __init__(self,user_name, password):
         self.user_name = user_name
-        self.pass = pass
+        self.password = password
 
     def save_use(self):
         '''
