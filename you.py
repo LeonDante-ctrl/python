@@ -5,7 +5,7 @@ class User:
 
     user_list = [] #empty list
 
-    def __init__(self,user_name,pass):
+    def __init__(self,user_name, pass):
         self.user_name = user_name
         self.pass = pass
 
