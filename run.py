@@ -46,9 +46,13 @@ def main():
 
             else:
                 print(f"Welcome {inputted_user} to your account")
-                print('\n')        
+                print('\n')
 
-
+            elif code == 'LI':
+                print("Welcome buddy")
+                print("Enter username")
+                main_user = input()
+                    
 
 
 
