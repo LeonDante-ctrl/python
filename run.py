@@ -70,28 +70,11 @@ def main():
                 print("Login complete")
                 print("\n")
                 print("\n")
-                
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+            elif code == 'EX':
+                break
+            else:
+                print("Enter a valid code to proceed")
 
 if __name__ == '__main__':
     main()
