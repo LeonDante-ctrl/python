@@ -52,8 +52,25 @@ def main():
                 print("Welcome buddy")
                 print("Enter username")
                 main_user = input()
-                    
 
+                print("Enter password here")
+                main_password = input()
+                print('\n')
+
+            while main_user != 'testuser' or main_password != '01234':
+                print("Wrong username or password . Username 'testuser' and password '01234'") #enter username in text form and password as digit details
+                print("Enter username")
+                main_user = input()
+
+                print("Enter password again")
+                main_password = input()
+                print("\n")
+
+            else:
+                print("Login complete")
+                print("\n")
+                print("\n")
+                
 
 
 
